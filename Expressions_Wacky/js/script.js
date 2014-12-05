@@ -8,7 +8,7 @@
 
 /* compounded monthly interest for a credit card with an annual interest rate of 15%. */
 
-alert("In this expressions project, we will consider the interest applied to a credit card with certain purchases on it at 15% interest per year. You will be asked for the initial balance on the card at the beginning of month one, then for the 3 purchases made on the card in month 1, then the 3 purchases made in month 2, and finally the three purchases made in month 3.") //alert to indicate the exercise
+alert("In this expressions project, we will consider the interest applied to a credit card with certain purchases on it at 15% interest per year. You will be asked for the initial balance on the card at the beginning of month one, then for the 3 purchases made on the card for the first month, then the 3 purchases made in the second month, and finally the three purchases made in third month. It also prompts you to make a payment to your card, and continues to apply interest at the end of each months expenses.") //alert to indicate the exercise
 
 //Gather givens
 
