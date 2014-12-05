@@ -10,3 +10,6 @@ var times = prompt("How many tolls do you pass on your way to work?"); //To find
 var workWeek = prompt("How many days do you work a week?"); //to learn how many days are worked per week
 
 var shiftsYear = Number(workWeek) * 52; //how many days per year are worked
+
+var timesPerWork = Number(times) * 2; //each trip to and from work crosses how many tolls
+
