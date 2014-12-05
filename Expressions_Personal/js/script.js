@@ -15,3 +15,6 @@ var timesPerWork = Number(times) * 2; //each trip to and from work crosses how m
 
 var tollsPerYear = Number(timesPerWork) * Number(shiftsYear); //Tolls crossed per year
 
+var total = Number(tollCost) * tollsPerYear;
+
+alert("If the cost of tolls is " + " $" + tollCost + " " + "and you cross" + " " + times + " " + "per trip to work and you work" + " " + workWeek + " " + "times per week, then you spend" + " $" + total + " " + "per year on tolls for work.");
