@@ -35,10 +35,10 @@ balanceTotal *= percent; //Balance of second month after interest
 
 alert(" The total is" + " " + balanceTotal + ". "); //Second month balance
 
-balanceTotal += Number(purchaseB[0]) + Number(purchaseB[1]) + Number(purchaseB[2]); //Balance of second month before interest
-balanceTotal *= percent; //Balance of second month after interest 
+balanceTotal += Number(purchaseC[0]) + Number(purchaseC[1]) + Number(purchaseC[2]); //Balance of third month before interest
+balanceTotal *= percent; //Balance of third month after interest 
 
-alert(" The total is" + " " + balanceTotal + ". "); //Second month balance
+alert(" The total is" + " " + balanceTotal + ". "); //third month balance
 
 
 
