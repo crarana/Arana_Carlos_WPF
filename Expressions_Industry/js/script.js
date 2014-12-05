@@ -17,4 +17,4 @@ at a discount as well as the three individual products at their discounted produ
 
 alert("3 Products are on sale for the holiday season. The same 3 products come in a bundle that is also on sale for the holiday season. Which is a better deal?"); //To help the user understand the coming questions
 
-var itemPrices = [prompt("What is the price of the first product?"),];
+var itemPrices = [prompt("What is the price of the first product?"), prompt("What is the price of the second product?"), prompt("What is the price of the third product?")];
