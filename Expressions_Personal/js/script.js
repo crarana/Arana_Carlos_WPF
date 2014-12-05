@@ -13,3 +13,5 @@ var shiftsYear = Number(workWeek) * 52; //how many days per year are worked
 
 var timesPerWork = Number(times) * 2; //each trip to and from work crosses how many tolls
 
+var tollsPerYear = Number(timesPerWork) * Number(shiftsYear); //Tolls crossed per year
+
