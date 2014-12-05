@@ -27,11 +27,17 @@ var taxes = prompt("What is the sales tax percentage"); //given for the tax adde
 
 //Calculating the discounts and difference
 
-var totalItems = Number(itemPrices[0]) + Number(itemPrices[1]) + Number(itemPrices[2]);
-var countItems = (100 - Number(discountItems))/100;
-var taxed = (100 - Number(taxes))/100;
-var totalItemsTax = totalItems * countItems * taxed;
-var countBundle = (100 - Number(discountBundle))/100;
-var totalBundleTax = Number(bundle) * countBundle * taxed;
+var totalItems = Number(itemPrices[0]) + Number(itemPrices[1]) + Number(itemPrices[2]); //Total for items at original price
+var countItems = (100 - Number(discountItems))/100 ; 
+//Percentage discount adjusted
+var taxed = (100 - Number(taxes))/100 ; 
+//Tax adjusted
+var totalItemsTax = totalItems * countItems * taxed; //Total for items including discount and tax
+var countBundle = (100 - Number(discountBundle))/100; 
+//percentage discount adjusted 
+var totalBundleTax = Number(bundle) * countBundle * taxed; //Total for bundle including discount and tax
 
 var difference; 
+
+//Results
+
