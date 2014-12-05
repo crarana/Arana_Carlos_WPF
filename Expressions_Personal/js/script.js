@@ -20,3 +20,7 @@ var total = Number(tollCost) * tollsPerYear; //Total for tolls at standard rate 
 alert("If the cost of tolls is " + " $" + tollCost + " " + "and you cross" + " " + times + " " + "tolls per trip to or from work and you work" + " " + workWeek + " " + "times per week, then you spend" + " $" + total + " " + "per year on tolls for work."); //Solution for total
 
 
+/*
+For me personally, I spend about .25 per toll, and pass four tolls per trip, and work 5 days a week.
+For me the prompt indicated $520.00
+ */
