@@ -28,12 +28,12 @@ percent++;
 var monthTotal = Number(initBalance) + Number(purchaseA[0]) + Number(purchaseA[1]) + Number(purchaseA[2]); //First month total before percentage applied
 var balanceTotal = monthTotal * percent; //Balance for first month + interest
 
-alert(" The total is" + " " + balanceTotal + ". ");
+alert(" The total is" + " " + balanceTotal + ". "); //First month balance
 
-balanceTotal += Number(purchaseB[0]) + Number(purchaseB[1]) + Number(purchaseB[2]);
-balanceTotal *= percent;
+balanceTotal += Number(purchaseB[0]) + Number(purchaseB[1]) + Number(purchaseB[2]); //Balance of second month before interest
+balanceTotal *= percent; //Balance of second month after interest 
 
-alert(" The total is" + " " + balanceTotal + ". ");
+alert(" The total is" + " " + balanceTotal + ". "); //Second month balance
 
 
 
