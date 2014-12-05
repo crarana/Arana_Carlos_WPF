@@ -43,6 +43,11 @@ var difference = totalBundleTax - totalItemsTax;
 //Results
 
 alert("The cost of the 3 items at original price before taxes is" + " $" + totalItems + ". " + " The cost of the three items at discounted price after taxes is" + " $" + totalItemsTax + ". " + "  The cost of the bundle at original price before taxes is" + " $" + bundle + ". " + " The cost of the bundle at the discounted price after taxes is" + " $" + totalBundleTax + ". ");
+//alert to show the calculated values
 console.log("The cost of the 3 items at original price before taxes is" + " $" + totalItems + ". " + " The cost of the three items at discounted price after taxes is" + " $" + totalItemsTax + ". " + "  The cost of the bundle at original price before taxes is" + " $" + bundle + ". " + " The cost of the bundle at the discounted price after taxes is" + " $" + totalBundleTax + ". ");
+//log
 
 alert("The difference between the bundled iems at discount and the individual items at discount is" + " $" + difference + "."); 
+//alert to show the calculated difference
+console.log("The difference between the bundled iems at discount and the individual items at discount is" + " $" + difference + "."); 
+//log
