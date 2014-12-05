@@ -14,7 +14,7 @@ var humanYears = prompt("Enter Sparky's age:"); //Get a given from the prompt fo
 var dogYears = humanYears * 7; //Declare and define the relationship between human years and dog years
 
 alert("Sparky is" + " " + humanYears + " " + "years old which is" + " " + dogYears + " " + "in dog years."); //Print out Sparky's age in relation to human years.
-
+console.log("Sparky is" + " " + humanYears + " " + "years old which is" + " " + dogYears + " " + "in dog years."); //log
 
 
 
@@ -29,7 +29,7 @@ var pizzas = prompt("How many pizzas were ordered?"); //Get a given from the pro
 var personal = pizzas * slices/people; //# of slices per person
 
 alert("Each person ate" + " " + personal + " " + "slices of pizza at the party."); //Print out the result of how many slices each person ate
-
+console.log("Each person ate" + " " + personal + " " + "slices of pizza at the party."); //log
 
 
 //Slices of Pie Part 2
@@ -39,6 +39,7 @@ alert("Slice of Pie Part 2"); //Let the visitor know that the exercise is titled
 var puppySlice = pizzas * slices%people; //# of slices Sparky gets to it if he eats the remainder slices
 
 alert("Sparky got" + " " + puppySlice + " " + "slices of Pizza."); //print out result
+console.log("Sparky got" + " " + puppySlice + " " + "slices of Pizza."); //log
 
 
 
@@ -54,6 +55,7 @@ var totalA = Number(bill[0]) + Number(bill[1]) + Number(bill[2]) + Number(bill[3
 var mean = total /5 ; //finds the average shopping bill
 
 alert("You have spent a total of" + " $" + totalA + " " + "on groceries over 5 weeks. That is an average of" + " $" + mean + " " +  "per week."); //prints result
+console.log("You have spent a total of" + " $" + totalA + " " + "on groceries over 5 weeks. That is an average of" + " $" + mean + " " +  "per week."); //Log
 
 
 //Discounts
@@ -72,3 +74,4 @@ var total = Number(price) * count; //Finds the total of the item at it's discoun
 var totalTaxed = total * tax; //Finds the total of the purchase after sales tax has been applied to the discounted price
 
 alert("Your" + " " + description + " " + "was originally" + " $" + price + ", " + "but after a" + " " + discount + "% " + "discount, it is now" + " $" + total + " " + "without tax, and" + " $" + totalTaxed + " " + "with tax."); // Prints out the result for the givens
+console.log("Your" + " " + description + " " + "was originally" + " $" + price + ", " + "but after a" + " " + discount + "% " + "discount, it is now" + " $" + total + " " + "without tax, and" + " $" + totalTaxed + " " + "with tax."); // Log
