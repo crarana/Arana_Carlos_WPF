@@ -17,10 +17,15 @@ at a discount as well as the three individual products at their discounted produ
 
 alert("3 Products are on sale for the holiday season. The same 3 products come in a bundle that is also on sale for the holiday season. Which is a better deal?"); //To help the user understand the coming questions
 
+//Gathering the givens
+
 var itemPrices = [prompt("What is the original price of the first product?"), prompt("What is the original price of the second product?"), prompt("What is the original price of the third product?")]; //Gathers the givens for the prices of the products
-
 var discountItems = prompt("What is the percentage discounted of buying individual products this holiday season?"); //To determine the percent off for individual items
+var bundle = prompt("What is the original price of the 3 item bundle?"); //Given for the price of the bundle
+var discountBundle = prompt("What is the percentage discounted from the bundle this holiday season?"); //Given for the discount on the bundle
+var taxes = prompt("What is the sales tax percentage"); //given for the tax added to the purchase
 
-var bundle = prompt("What is the original price of the 3 item bundle?");
+//Calculating the discounts and difference
 
-var discountBundle = prompt("What is the percentage discounted from the bundle this holiday season?");
+var totalItems;
+var totalBundle;
