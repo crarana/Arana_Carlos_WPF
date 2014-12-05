@@ -10,4 +10,8 @@ For this expressions practice I decided to make it about my current job. It is h
 deals on our high-end line of haircare products. A lot of money goes into the research and development of Loreal's
 Kerastase line of products and the pricepoint for the products indicates that. Because the products are expensive,
 the holiday season is a great time to offer discounts that make them more affordable.
+
+We offer holiday bundles, and the individual products at discounts. This will work to compare a holiday bundle that contains 3 products
+at a discount as well as the three individual products at their discounted products.
  */
+
