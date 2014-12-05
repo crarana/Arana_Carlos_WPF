@@ -6,3 +6,4 @@
 alert("My personal expressions exercise revolves around the amount of money I spend annually on tolls.");
 
 var tollCost = prompt("How much is the toll cost?");
+var times = prompt("How many tolls do you pass on your way to work?");
