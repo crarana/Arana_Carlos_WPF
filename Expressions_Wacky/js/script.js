@@ -6,3 +6,4 @@
  Student ID: #0004645079
 */
 
+/* compounded monthly interest for a credit card with an annual interest rate of 12%. */
