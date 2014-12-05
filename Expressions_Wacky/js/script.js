@@ -7,3 +7,7 @@
 */
 
 /* compounded monthly interest for a credit card with an annual interest rate of 12%. */
+
+var purchaseA = [];
+var purchaseB = [];
+var purchaseC = [];
