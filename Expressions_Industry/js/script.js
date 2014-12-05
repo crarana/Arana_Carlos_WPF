@@ -37,7 +37,10 @@ var countBundle = (100 - Number(discountBundle))/100;
 //percentage discount adjusted 
 var totalBundleTax = Number(bundle) * countBundle * taxed; //Total for bundle including discount and tax
 
-var difference; 
+var difference = totalBundleTax - totalItemsTax; 
+//Difference between the two items
 
 //Results
 
+alert("The cost of the 3 items at original price before taxes is" + " $" + totalItems + ". " + "/n The cost of the three items at discounted price after taxes is" + " $" + totalItemsTax + ". " + "/n /n The cost of the bundle at original price before taxes is" + " $" + bundle + ". " + "/n The cost of the bundle at the discounted price after taxes is" + " $" + totalBundleTax + ". ");
+console.log("The cost of the 3 items at original price before taxes is" + " $" + totalItems + ". " + "/n The cost of the three items at discounted price after taxes is" + " $" + totalItemsTax + ". " + "/n /n The cost of the bundle at original price before taxes is" + " $" + bundle + ". " + "/n The cost of the bundle at the discounted price after taxes is" + " $" + totalBundleTax + ". ");
