@@ -21,4 +21,4 @@ var itemPrices = [prompt("What is the original price of the first product?"), pr
 
 var discountItems = prompt("What is the percentage discounted of buying individual products this holiday season?"); //To determine the percent off for individual items
 
-var bundle = ;
+var bundle = prompt("What is the original price of the 3 item bundle?");
