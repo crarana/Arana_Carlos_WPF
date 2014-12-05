@@ -5,6 +5,6 @@
 
 alert("My personal expressions exercise revolves around the amount of money I spend annually on tolls.");
 
-var tollCost = prompt("How much is the toll cost?");
-var times = prompt("How many tolls do you pass on your way to work?");
-var workWeek = prompt("How many days do you work a week?");
+var tollCost = prompt("How much is the toll cost?"); //To asses the cost of each toll being passed for work.
+var times = prompt("How many tolls do you pass on your way to work?"); //To find out how many tolls are passed each trip
+var workWeek = prompt("How many days do you work a week?"); //to learn how many days are worked per week
