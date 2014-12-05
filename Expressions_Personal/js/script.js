@@ -5,6 +5,8 @@
  Student ID: #0004645079
 */
 
+//For my my personal expressions exercise I devised a script that could determine how much money will be spent on tolls driving to and from work. I picked this because it relates closely to my life since I live so far from my workplace in Miami.
+
 alert("My personal expressions exercise revolves around the amount of money I spend annually on tolls.");
 
 var tollCost = prompt("How much is the toll cost?"); //To asses the cost of each toll being passed for work.
