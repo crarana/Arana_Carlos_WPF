@@ -16,3 +16,5 @@ at a discount as well as the three individual products at their discounted produ
  */
 
 alert("3 Products are on sale for the holiday season. The same 3 products come in a bundle that is also on sale for the holiday season. Which is a better deal?");
+
+var itemPrices = [];
