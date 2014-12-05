@@ -21,11 +21,15 @@ var purchaseC = [prompt("What is the first purchase made in the third month?"), 
 //Calculations
 
 var percent = .15/12;
+percent++;
 
 var monthTotal = Number(initBalance) + Number(purchaseA[0]) + Number(purchaseA[1]) + Number(purchaseA[2]); //First month total before percentage applied
-var interest = 100 + percent;
+var balanceTotal = monthTotal * percent;
+
+balanceTotal += Number(purchaseB[0]) + Number(purchaseB[1]) + Number(purchaseB[2]);
 
 
 
-alert(" The total is" + " " + monthTotal + ". ");
+
+alert(" The total is" + " " + balanceTotal + ". ");
 
