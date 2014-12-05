@@ -7,3 +7,4 @@ alert("My personal expressions exercise revolves around the amount of money I sp
 
 var tollCost = prompt("How much is the toll cost?");
 var times = prompt("How many tolls do you pass on your way to work?");
+var workWeek = prompt("How many days do you work a week?");
