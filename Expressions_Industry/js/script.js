@@ -19,5 +19,5 @@ alert("3 Products are on sale for the holiday season. The same 3 products come i
 
 var itemPrices = [prompt("What is the original price of the first product?"), prompt("What is the original price of the second product?"), prompt("What is the original price of the third product?")]; //Gathers the givens for the prices of the products
 
-var discountItems = prompt("What is the percentage discounted of buying individual products this holiday season?");
+var discountItems = prompt("What is the percentage discounted of buying individual products this holiday season?"); //To determine the percent off for individual items
 
