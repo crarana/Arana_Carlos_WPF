@@ -19,3 +19,6 @@ var purchaseB = [prompt("What is the first purchase made in the second month?"),
 var purchaseC = [prompt("What is the first purchase made in the third month?"), ("What is the second purchase made in the third month?"), ("What is the third purchase made in the third month?") ]; //gather the values for the third month
 
 //Calculations
+
+var monthTotal = Number(initBalance) + Number(purchaseA[0]) + Number(purchaseA[1]) + Number(purchaseA[2]);
+
