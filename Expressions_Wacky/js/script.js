@@ -15,8 +15,6 @@ alert("In this expressions project, we will consider the interest applied to a c
 var initBalance = prompt("What is the initial balance on the card?"); //gather the given for the initial balance
 
 var purchaseA = [prompt("What is the first purchase made in the first month?"), prompt("What is the second purchase made in the first month?"), prompt("What is the third purchase made in the first month?")]; //gather the values for the first month
-var purchaseB = [prompt("What is the first purchase made in the second month?"), prompt("What is the second purchase made in the second month?"), prompt("What is the third purchase made in the second month?")]; //gather the values for the second month
-var purchaseC = [prompt("What is the first purchase made in the third month?"), prompt("What is the second purchase made in the third month?"), prompt("What is the third purchase made in the third month?")]; //gather the values for the third month
 
 //Calculations
 
@@ -29,13 +27,22 @@ var monthTotal = Number(initBalance) + Number(purchaseA[0]) + Number(purchaseA[1
 var balanceTotal = monthTotal * percent; //Balance for first month + interest
 
 alert(" The total for month one including interest is" + " " + balanceTotal + ". "); //First month balance
+console.log(" The total for month one including interest is" + " " + balanceTotal + ". "); //log
 
-balanceTotal += Number(purchaseB[0]) + Number(purchaseB[1]) + Number(purchaseB[2]); //Balance of second month before interest
+var paymentA = prompt("How much will you pay this month?"); //first payment
+var purchaseB = [prompt("What is the first purchase made in the second month?"), prompt("What is the second purchase made in the second month?"), prompt("What is the third purchase made in the second month?")]; //gather the values for the second month
+
+balanceTotal += Number(purchaseB[0]) + Number(purchaseB[1]) + Number(purchaseB[2]) - Number(paymentA); //Balance of second month before interest
 balanceTotal *= percent; //Balance of second month after interest 
 
 alert(" The total for month two including interest is" + " " + balanceTotal + ". "); //Second month balance
+console.log(" The total for month two including interest is" + " " + balanceTotal + ". "); //log
 
-balanceTotal += Number(purchaseC[0]) + Number(purchaseC[1]) + Number(purchaseC[2]); //Balance of third month before interest
+var paymentB = prompt("How much will you pay this month?"); //second payment
+var purchaseC = [prompt("What is the first purchase made in the third month?"), prompt("What is the second purchase made in the third month?"), prompt("What is the third purchase made in the third month?")]; //gather the values for the third month
+
+balanceTotal += Number(purchaseC[0]) + Number(purchaseC[1]) + Number(purchaseC[2]) - Number(paymentB); //Balance of third month before interest
 balanceTotal *= percent; //Balance of third month after interest 
 
 alert(" The total for month three including interest is" + " " + balanceTotal + ". "); //third month balance
+console.log(" The total for month three including interest is" + " " + balanceTotal + ". "); //log
