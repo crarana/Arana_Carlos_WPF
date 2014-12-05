@@ -13,4 +13,4 @@ alert("In this expressions project, we will consider the interest applied to a c
 var initBalance = prompt("What is the initial balance on the card?"); //gather the given for the initial balance
 var purchaseA = [prompt("What is the first purchase made in the first month?"), ("What is the second purchase made in the first month?"), ("What is the third purchase made in the first month?") ]; //gather the values for the first month
 var purchaseB = [prompt("What is the first purchase made in the second month?"), ("What is the second purchase made in the second month?"), ("What is the third purchase made in the second month?") ]; //gather the values for the second month
-var purchaseC = [];
+var purchaseC = [prompt("What is the first purchase made in the third month?"), ("What is the second purchase made in the third month?"), ("What is the third purchase made in the third month?") ]; //gather the values for the third month
