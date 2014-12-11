@@ -54,35 +54,37 @@ if (can >= 200) { //if there is enough gallons
 
 //GROUP 2: MULTIPLE RESULTS
 //Grade Letter Calculator
+alert("This program will calculate your letter grade when given you numeric grade at the end of a course.") //alert the user of the upcoming prompt.
 
 //Acquire the givens with prompts
-var percent = prompt("What is the number grade at the conclusion of your course?");
-var percent = Number(percent);
+var percent = prompt("What is the number grade at the conclusion of your course?"); //given for the percent grade
+var percent = Number(percent); //converts the var string response to a var number
 
-if (percent >= 95) {
-	console.log("You have a" + " " + percent + "%, " + "which means you have earned an A+ in the class!");
-	alert("You have a" + " " + percent + "%, " + "which means you have earned an A+ in the class!");
-}else if (percent >=90 && percent<=94){
-	console.log("You have a" + " " + percent + "%, " + "which means you have earned an A in the class!");
-	alert("You have a" + " " + percent + "%, " + "which means you have earned an A in the class!");
-}else if(percent >= 85 && percent <=89){
-	console.log("You have a" + " " + percent + "%, " + "which means you have earned a B+ in the class!");
-	alert("You have a" + " " + percent + "%, " + "which means you have earned a B+ in the class!");
-}else if(percent >=80 && percent<=84){
-	console.log("You have a" + " " + percent + "%, " + "which means you have earned a B in the class!");
-	alert("You have a" + " " + percent + "%, " + "which means you have earned a B in the class!");
-}else if(percent >=76 && percent<=79){
-	console.log("You have a" + " " + percent + "%, " + "which means you have earned a C+ in the class!");
-	alert("You have a" + " " + percent + "%, " + "which means you have earned a C+ in the class!");
-}else if(percent >=73 && percent<=75){
-	console.log("You have a" + " " + percent + "%, " + "which means you have earned a C in the class!");
-	alert("You have a" + " " + percent + "%, " + "which means you have earned a C in the class!");
-}else if(percent >=70 && percent<=72){
-	console.log("You have a" + " " + percent + "%, " + "which means you have earned a D in the class!");
-	alert("You have a" + " " + percent + "%, " + "which means you have earned a D in the class!");
-}else if(percent <=69){
-	console.log("You have a" + " " + percent + "%, " + "which means you have earned an F in the class!");
-	alert("You have a" + " " + percent + "%, " + "which means you have earned an F in the class!");
+//if and only if you got a certain score, you will get a certain grade
+if (percent >= 95) { //if you got 95 or greater
+	console.log("You have a" + " " + percent + "%, " + "which means you have earned an A+ in the class!"); //console log
+	alert("You have a" + " " + percent + "%, " + "which means you have earned an A+ in the class!"); //alert the user
+}else if (percent >=90 && percent<=94){ // if you got between a 90 and a 94
+	console.log("You have a" + " " + percent + "%, " + "which means you have earned an A in the class!"); //console log
+	alert("You have a" + " " + percent + "%, " + "which means you have earned an A in the class!"); //alert the user
+}else if(percent >= 85 && percent <=89){ //if you got between an 85 and an 89
+	console.log("You have a" + " " + percent + "%, " + "which means you have earned a B+ in the class!"); //console log
+	alert("You have a" + " " + percent + "%, " + "which means you have earned a B+ in the class!"); //alert the user
+}else if(percent >=80 && percent<=84){ //if you got between an 84 and an 80
+	console.log("You have a" + " " + percent + "%, " + "which means you have earned a B in the class!"); //console log
+	alert("You have a" + " " + percent + "%, " + "which means you have earned a B in the class!"); //alert the user
+}else if(percent >=76 && percent<=79){ //if you got between a 76 and a 79
+	console.log("You have a" + " " + percent + "%, " + "which means you have earned a C+ in the class!"); //console log
+	alert("You have a" + " " + percent + "%, " + "which means you have earned a C+ in the class!"); //alert the user
+}else if(percent >=73 && percent<=75){ //if you got between a 73 and 75
+	console.log("You have a" + " " + percent + "%, " + "which means you have earned a C in the class!"); //console log
+	alert("You have a" + " " + percent + "%, " + "which means you have earned a C in the class!"); //alert the user
+}else if(percent >=70 && percent<=72){ //if you got between a 70 and a 72
+	console.log("You have a" + " " + percent + "%, " + "which means you have earned a D in the class!"); //console log
+	alert("You have a" + " " + percent + "%, " + "which means you have earned a D in the class!"); //alert the user
+}else if(percent <=69){ //if you got a 69 or less
+	console.log("You have a" + " " + percent + "%, " + "which means you have earned an F in the class!"); //console log
+	alert("You have a" + " " + percent + "%, " + "which means you have earned an F in the class!"); //alert the user
 }else{
 console.log("Did not have enough information to complete the calculation. Please try again."); //console log
 	alert("Did not have enough information to complete the calculation. Please try again."); //alert the user
@@ -92,17 +94,18 @@ console.log("Did not have enough information to complete the calculation. Please
 //GROUP 3: MULTIPLE CONDITIONS
 //Tire Pressure 1
 
+alert("This next program will determine if your tire pressure will pass inspection. You will be asked the tire pressure of your four tires in psi.") //alert the user
 
-var pressure = [prompt("What is the pressure of your front left tire in psi?"), prompt("What is the pressure of your front right tire in psi?"), prompt("What is the pressure of your back left tire in psi?"), prompt("What is the pressure of your back right tire in psi?")]; 
+//acquire the givens
+var pressure = [prompt("What is the pressure of your front left tire in psi?"), prompt("What is the pressure of your front right tire in psi?"), prompt("What is the pressure of your back left tire in psi?"), prompt("What is the pressure of your back right tire in psi?")]; //this is the prompts for the array which holds the tires pressures
 
 //front tires must have same pressure, back two tires must have the same pressure, but front tires and back tires can have differing pressures.
-
-if(Number(pressure[0]) === Number(pressure[1]) || Number(pressure[2]) === Number(pressure[3])){
-	console.log("The tires pass spec!");
-	alert("The tires pass spec!");
+if(Number(pressure[0]) === Number(pressure[1]) && Number(pressure[2]) === Number(pressure[3])){ //if the two front tires are equal and the back two tires are equal
+	console.log("The tires pass spec!"); //console log
+	alert("The tires pass spec!"); //alert the user
 }else if(Number(pressure[0]) != Number(pressure[1]) || Number(pressure[2]) != Number(pressure[3])){
-	console.log("Get your tires checked out!");
-	alert("Get your tires checked out!");
+	console.log("Get your tires checked out!"); //console log
+	alert("Get your tires checked out!"); //alert the user
 }else{
 	console.log("Did not have enough information to complete the calculation. Please try again."); //console log
 	alert("Did not have enough information to complete the calculation. Please try again."); //alert the user
