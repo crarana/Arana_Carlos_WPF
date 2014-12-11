@@ -10,3 +10,4 @@ alert("In this program you will be asked to prioritize your next three bills, an
 
 //acquire givens
 var rent = prompt("How much is your rent?"); //prompt to acquire value for var rent
+var food = prompt("How much will your next grocery bill be?"); //prompt to get value for var food
