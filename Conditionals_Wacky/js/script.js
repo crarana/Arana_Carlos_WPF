@@ -17,3 +17,8 @@ var budget = prompt("What is your budget for this project?"); //acquire a value 
 var length = Number(length); //adjust value for length to a numeric value
 var width = Number(width); //adjust value for width to a numeric value
 var budget = Number(budget); //adjust value for budget to a numeric value
+
+//calculations
+var area = length*width;
+var wood = area*.75;
+var tile = area*1.25;
