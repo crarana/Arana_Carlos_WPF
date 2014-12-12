@@ -15,3 +15,12 @@ var items = prompt("How many items are you buying today?"); //acquire the amount
 //adjustments
 var total = Number(total); //adjust to numerical value
 var items = Number(items); //adjust to numerical value
+var discount = total*.85; //adjust for discount from total
+
+if(items >= 3) {
+	total*.85	
+}else if (items <=2) {
+}else{
+	console.log("Did not have enough information to complete the calculation. Please try again."); //console log
+	alert("Did not have enough information to complete the calculation. Please try again."); //alert the user
+};
