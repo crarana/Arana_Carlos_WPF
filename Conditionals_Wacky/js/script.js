@@ -25,7 +25,25 @@ var tile = area*1.25; //total cost for area if ceramic tiles are chosen
 
 //If the total for ceramic is below budget, then tile is an option. If the total for wood is below budget, then the wood tile are an option
 
-if(budget >= wood && budget <= tile ){
+if(budget >= wood && budget <= tile ){ //if you can afford wood tile but not ceramic, then print
 	console.log("You can afford to get wood tiles but not ceramic tiles."); //console log
 	alert("You can afford to get wood tiles but not ceramic tiles."); //alert the user
-}
+}else if(budget <= wood){ //if you cannot afford wood, then print
+	console.log("You cannot afford to re-tile your room yet."); //console log
+	alert("You cannot afford to re-tile your room yet."); //alert the user
+}else if(budget >=wood && budget >= tile){ //if you can afford either, then print
+	console.log("You can afford to get either wood tiles or ceramic tiles."); //console log
+	alert("You can afford to get either wood tiles or ceramic tiles."); //alert the user
+}else{ //in any other case
+	console.log("Did not have enough information to complete the calculation. Please try again."); //console log
+	alert("Did not have enough information to complete the calculation. Please try again."); //alert the user
+};
+	
+	
+	
+	
+	
+	
+	
+	
+	
