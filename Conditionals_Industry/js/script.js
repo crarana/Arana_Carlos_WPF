@@ -13,5 +13,5 @@ var total = prompt("How much is the total for your services today?"); //acquire 
 var items = prompt("How many items are you buying today?"); //acquire the amount of items for the item var
 
 //adjustments
-var total = Number(total);
-var items = Number(items);
+var total = Number(total); //adjust to numerical value
+var items = Number(items); //adjust to numerical value
