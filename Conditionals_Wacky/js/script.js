@@ -22,3 +22,10 @@ var budget = Number(budget); //adjust value for budget to a numeric value
 var area = length*width; //total area of the room being tiled
 var wood = area*.75; //total cost for area if wood tiles are chosen
 var tile = area*1.25; //total cost for area if ceramic tiles are chosen
+
+//If the total for ceramic is below budget, then tile is an option. If the total for wood is below budget, then the wood tile are an option
+
+if(budget >= wood && budget <= tile ){
+	console.log("You can afford to get wood tiles but not ceramic tiles."); //console log
+	alert("You can afford to get wood tiles but not ceramic tiles."); //alert the user
+}
