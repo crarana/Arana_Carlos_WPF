@@ -18,8 +18,11 @@ var items = Number(items); //adjust to numerical value
 var discount = total*.85; //adjust for discount from total
 
 if(items >= 3) {
-	total*.85	
+	console.log("Your total for today is" + " $" + discount + ", after a 15% discount.");
+	alert("Your total for today is" + " $" + discount + ", after a 15% discount.");
 }else if (items <=2) {
+	console.log("Your total for today is" + " $" + total + ".");
+	alert("Your total for today is" + " $" + total + ".");
 }else{
 	console.log("Did not have enough information to complete the calculation. Please try again."); //console log
 	alert("Did not have enough information to complete the calculation. Please try again."); //alert the user
