@@ -19,6 +19,6 @@ var width = Number(width); //adjust value for width to a numeric value
 var budget = Number(budget); //adjust value for budget to a numeric value
 
 //calculations
-var area = length*width;
-var wood = area*.75;
-var tile = area*1.25;
+var area = length*width; //total area of the room being tiled
+var wood = area*.75; //total cost for area if wood tiles are chosen
+var tile = area*1.25; //total cost for area if ceramic tiles are chosen
