@@ -6,11 +6,11 @@
 
 /* For this assignment im going to make it a discount offered for buying 3 or more items. 
 */
-alert("If you buy two items or more, the salon offers 15% off the total."); //alerts the user of the upcoming prompts
+alert("If you buy three items or more, the salon offers 15% off the total."); //alerts the user of the upcoming prompts
 
 //acquire givens
-var total = prompt("How much is the total for your services today?");
-var items = prompt("How many items are you buying today?");
+var total = prompt("How much is the total for your services today?"); //acquire the total for var total
+var items = prompt("How many items are you buying today?"); //acquire the amount of items for the item var
 
 //adjustments
 var total = Number(total);
