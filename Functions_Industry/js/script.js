@@ -11,6 +11,12 @@ alert("You are visiting a cookie shop you often visit. They have a card for freq
 var visit = prompt("how many punches do you have on your card before you enter the cookie shop?");
 
 var total = prompt("What is your total for today before any discounts?");
+var discount = calculateFifth(visit, total);
 
-for  (visit> 0 
+
+while(visit/5){
+	calculateFifth{
+		return total * 
+	}
+}
 
