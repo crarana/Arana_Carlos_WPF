@@ -8,7 +8,7 @@
 //Calculate the circumference of a cricle.
 //prompt for given
 var radius= prompt("What is the radius of the circle") ; //defined var radius based on prompt
-var circumference = calculateCircumference(radius);
+var circumference = calculateCircumference(radius); //added var defined by function for radius
 console.log("The Circumference of the Circle is" + " " + circumference);
 
 function calculateCircumference(radius){
