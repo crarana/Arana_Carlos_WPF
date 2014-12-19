@@ -22,7 +22,7 @@ var weight= prompt("How much is the weight of the victim?"); //var weight define
 var kill = calculateKill(weight); //var kill defined by function caclculateKill
 console.log("It would take" + " " + kill + " " + "beestings to kill an animal that weighs" + " " + weight + "pounds"); //cosole log results
 
-function caclculateKill(weight){ //function and functionname 
+function calculateKill(weight){ //function and functionname 
 	return weight*8.666666667 //return for function
 }
 
