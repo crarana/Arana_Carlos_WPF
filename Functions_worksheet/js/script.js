@@ -8,6 +8,8 @@
 //Calculate the circumference of a cricle.
 var radius=3;
 var circumference = calculateCircumference(radius);
+console.log("The Circumference of the Circle is" + " " + circumference);
+
 
 
 
