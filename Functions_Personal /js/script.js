@@ -26,3 +26,6 @@ function roomArea(width, length){
 function walkArea(walkWidth, walkLength){
 	return walkWidth*walkLength
 };
+function gardenArea(roomArea, walkArea){
+	return roomArea - walkArea
+};
