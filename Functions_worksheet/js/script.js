@@ -5,6 +5,8 @@
 
 //Problem: Circumference
 
+//Calculate the circumference of a cricle.
+var radius=3;
 
 
 
