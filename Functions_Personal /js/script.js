@@ -13,8 +13,8 @@ alert("You will be converting an empty room in your house to an indoor garden. T
 
 var width=prompt("What is the width in feet of the room?"); //var for width of room given
 var length=prompt("What is the length in feet of the room?"); //var for length of room given
-var walkWidth=prompt("What is the width in feet of the intended walkway?");
-var walkLength=prompt("What is the length in feet of the intended walkway?");
+var walkWidth=prompt("What is the width in feet of the intended walkway?"); //var for walkwidth given
+var walkLength=prompt("What is the length in feet of the intended walkway?"); //var for walklength given
 
 var roomArea = calculateRoom(length, width);
 var walkArea = calculateWalk(walkWidth, walkLength);
