@@ -11,7 +11,7 @@ var radius= prompt("What is the radius of the circle") ; //defined var radius ba
 var circumference = calculateCircumference(radius); //added var defined by function for radius
 console.log("The Circumference of the Circle is" + " " + circumference); //console log results
 
-function calculateCircumference(radius){ //function, functionname
+function calculateCircumference(radius){ //function, functionname, and parameter
 	return radius*2*3.14; //print result
 }
 
