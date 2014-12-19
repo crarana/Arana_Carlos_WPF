@@ -21,5 +21,5 @@ var walkArea = calculateWalk(walkWidth, walkLength);
 var gardenArea = roomArea - walkArea;
 
 function roomArea(width, length){
-	
+	return width*length
 };
