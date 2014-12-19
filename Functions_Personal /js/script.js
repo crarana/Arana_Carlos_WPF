@@ -16,3 +16,10 @@ var length=prompt("What is the length of the room?");
 var walkWidth=prompt("What is the width of the intended walkway?");
 vat walkLength=prompt("What is the length of the intended walkway?");
 
+var roomArea = calculateRoom(length, width);
+var walkArea = calculateWalk(walkWidth, walkLength);
+var gardenArea = roomArea - walkArea;
+
+function roomArea(width, length){
+	
+};
