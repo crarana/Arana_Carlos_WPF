@@ -16,9 +16,9 @@ var length=prompt("What is the length in feet of the room?"); //var for length o
 var walkWidth=prompt("What is the width in feet of the intended walkway?"); //var for walkwidth given
 var walkLength=prompt("What is the length in feet of the intended walkway?"); //var for walklength given
 
-var roomArea = calculateRoom(length, width);
-var walkArea = calculateWalk(walkWidth, walkLength);
-var gardenArea = differenceArea(roomArea, walkArea);
+var roomArea = calculateRoom(length, width); //var defined by function
+var walkArea = calculateWalk(walkWidth, walkLength); //var defined by function
+var gardenArea = differenceArea(roomArea, walkArea); //var defined by function
 console.log("If the room is" + " " + roomArea + " " + "square feet and the walkway area is" + " " + walkArea + " " + "square feet, then the garden can be" + " " + gardenArea + " " + "square feet.");
 alert("If the room is" + " " + roomArea + " " + "square feet and the walkway area is" + " " + walkArea + " " + "square feet, then the garden can be" + " " + gardenArea + " " + "square feet.");
 
