@@ -23,3 +23,6 @@ var gardenArea = roomArea - walkArea;
 function roomArea(width, length){
 	return width*length
 };
+function walkArea(walkWidth, walkLength){
+	return walkWidth*walkLength
+};
