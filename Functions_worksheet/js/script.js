@@ -9,10 +9,10 @@
 //prompt for given
 var radius= prompt("What is the radius of the circle") ; //defined var radius based on prompt
 var circumference = calculateCircumference(radius); //added var defined by function for radius
-console.log("The Circumference of the Circle is" + " " + circumference);
+console.log("The Circumference of the Circle is" + " " + circumference); //console log results
 
-function calculateCircumference(radius){
-	return radius*2*3.14;
+function calculateCircumference(radius){ //function, functionname
+	return radius*2*3.14; //print result
 }
 
 //Strung!
