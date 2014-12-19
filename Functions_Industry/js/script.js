@@ -6,17 +6,21 @@
 
 //for this one, im deciding to make it about getting a discount on your ice cream for every 5th visit, and an extra special discount for every the 20th visit
 
-alert("You are visiting a cookie shop you often visit. They have a card for frequent visitors where you get a stamp on your card with each visit. They offer special discounts for each 5th visit, and an extra special one when your card is full. A card can hold up to 20 punches.") //alert the user of the coming prompts.
+alert("You are visiting a cookie shop you often visit. When you buy 5 cookies or more you get 2.00 off.") //alert the user of the coming prompts.
 
-var visit = prompt("how many punches do you have on your card before you enter the cookie shop?");
+var cookies = prompt("how many cookies will you buy?"); //given for cookies
+var total = prompt("What is your total for today before any discounts?"); //given for total
+var discount = (cookies > 5) ? 2.00 : 0; //ternary used to determine whether or not the discount will be applied.
 
-var total = prompt("What is your total for today before any discounts?");
-var discount = calculateFifth(visit, total);
+var totalDiscount = caclulcatingCost(total, discount); //defining the function under a variable name
+
+console.log("You have bought" + " " + cookies + " " + "and your total is" + " $" + totalDiscount +"."); //console log
+alert("You have bought" + " " + cookies + " " + "and your total is" + " $" + totalDiscount +"."); //alert the user
+
+function caclulcatingCost(total, discount){ //run the function to calculate cost
+	return total - discount //return the amount for the function
+};
 
 
-while(visit/5){
-	calculateFifth{
-		return total * 
-	}
-}
 
+	
