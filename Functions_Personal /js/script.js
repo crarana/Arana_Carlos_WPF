@@ -18,7 +18,7 @@ vat walkLength=prompt("What is the length of the intended walkway?");
 
 var roomArea = calculateRoom(length, width);
 var walkArea = calculateWalk(walkWidth, walkLength);
-var gardenArea = roomArea - walkArea;
+var gardenArea = differenceArea(roomArea, walkArea);
 
 function roomArea(width, length){
 	return width*length
