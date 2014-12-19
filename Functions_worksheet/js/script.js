@@ -12,7 +12,7 @@ var circumference = calculateCircumference(radius); //added var defined by funct
 console.log("The Circumference of the Circle is" + " " + circumference); //console log results
 
 function calculateCircumference(radius){ //function, and functionname
-	return radius*2*3.14; //print result
+	return radius*2*3.14; //return for function
 }
 
 //Strung!
@@ -23,7 +23,7 @@ var kill = calculateKill(weight); //var kill defined by function caclculateKill
 console.log("It would take" + " " + kill + " " + "beestings to kill an animal that weighs" + " " + weight + "pounds"); //cosole log results
 
 function caclculateKill(weight){ //function and functionname 
-	return weight*8.666666667
+	return weight*8.666666667 //return for function
 }
 
 
