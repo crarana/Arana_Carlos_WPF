@@ -10,7 +10,9 @@ var radius=3;
 var circumference = calculateCircumference(radius);
 console.log("The Circumference of the Circle is" + " " + circumference);
 
-
+function calculateCircumference(radius){
+	return radius*2*3.14;
+}
 
 
 
