@@ -16,18 +16,18 @@ var length=prompt("What is the length in feet of the room?"); //var for length o
 var walkWidth=prompt("What is the width in feet of the intended walkway?"); //var for walkwidth given
 var walkLength=prompt("What is the length in feet of the intended walkway?"); //var for walklength given
 
-var roomArea = calculateRoom(length, width); //var defined by function
-var walkArea = calculateWalk(walkWidth, walkLength); //var defined by function
-var gardenArea = differenceArea(roomArea, walkArea); //var defined by function
-console.log("If the room is" + " " + roomArea + " " + "square feet and the walkway area is" + " " + walkArea + " " + "square feet, then the garden can be" + " " + gardenArea + " " + "square feet.");
-alert("If the room is" + " " + roomArea + " " + "square feet and the walkway area is" + " " + walkArea + " " + "square feet, then the garden can be" + " " + gardenArea + " " + "square feet.");
+var roomArea = calculateRoom(length, width); //var defined by function with parameters
+var walkArea = calculateWalk(walkWidth, walkLength); //var defined by function with parameters
+var gardenArea = differenceArea(roomArea, walkArea); //var defined by function with parameters
+console.log("If the room is" + " " + roomArea + " " + "square feet and the walkway area is" + " " + walkArea + " " + "square feet, then the garden can be" + " " + gardenArea + " " + "square feet."); //print to console
+alert("If the room is" + " " + roomArea + " " + "square feet and the walkway area is" + " " + walkArea + " " + "square feet, then the garden can be" + " " + gardenArea + " " + "square feet."); //alert to the user
 
-function calculateRoom(width, length){
+function calculateRoom(width, length){ //function for calculating room area with given arguments
 	return width*length
 };
-function calculateWalk(walkWidth, walkLength){
+function calculateWalk(walkWidth, walkLength){ //function for calculating walk area are with given arguments
 	return walkWidth*walkLength
 };
-function differenceArea(roomArea, walkArea){
+function differenceArea(roomArea, walkArea){ //function for caclulating the difference in the areas of the room and the walkway
 	return roomArea - walkArea
 };
